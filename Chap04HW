@@ -1,0 +1,35 @@
+
+public class Lunachap04 {
+//No, I wug."
+//You wugga wug"
+//I wug."
+	public static void main(String[] args) {
+		System.out.println("4.2");
+		zool(11,"Didi","Lordland");
+		System.out.println("4.3");
+		printAmerican("Tuesday, ","September",18,2018);
+		System.out.println("");
+		printEuropean("Tuesday, ",18,"  September,",2018);
+		
+		
+	}
+	public static void zool(int value, String petname, String streetname ) {
+	System.out.print(value);
+	System.out.print(petname);
+    System.out.print(streetname);
+	}
+    public static void printAmerican(String day,String month,int date, int year) {
+    System.out.print(day);
+    System.out.print(month);
+    System.out.print(" " + date + ",");
+    System.out.print(year);
+	}
+    
+    public static void printEuropean(String day,int date, String month,int year) {
+    System.out.print(day);
+    System.out.print(date);
+    System.out.print(month);
+    System.out.print(year);
+    }
+	}
+	
